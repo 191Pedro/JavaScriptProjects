@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 23</title>
+    <link href="../att23/att.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="cg">
+        <nav>
+            <a href="../att22/att.html"><img src="../previous.png"> Atividade 22</a>
+            <span>|</span>
+            <a href="../index.html">Central de atividades <img src="../home.png"></a>
+            <span>|</span>
+            <a href="../att24/att.html">Atividade 24 <img src="../next.png"></a>
+        </nav>
+        <section>
+            <div class="enunciado">
+                <h3>Atividade 23</h3>
+                <p>Faça um algoritmo que efetue o cálculo do salário líquido de um professor. As informações fornecidas serão: valor da aula por hora, número de aulas lecionadas no mês e percentual de desconto do INSS. Imprima na tela o salário líquido final.</p>
+            </div>
+            <div class="atividade">
+                <p>Cálculo do salário líquido de um professor.</p>
+                <div><input type="number" id="mi" placeholder="Minutos por aula"><p>min</p></div>
+                <div><input type="number" id="ha" placeholder="Valor da aula por hora"></div>
+                <div><input type="number" id="hv" placeholder="Quantidade de aulas no mês"></div>
+                <div><input type="number" id="di" placeholder="Desconto do INSS"><p>%</p></div>
+            </div>
+            <div class="btt">
+                <button onclick="att()">Calcular</button>
+            </div>
+            <div class="text">
+                <p id="result">O resultado será exibido aqui</p>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
+<script src="../att23/att.js"></script>

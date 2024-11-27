@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 24</title>
+    <link href="../att24/att.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="cg">
+        <nav>
+            <a href="../att23/att.html"><img src="../previous.png"> Atividade 23</a>
+            <span>|</span>
+            <a href="../index.html">Central de atividades <img src="../home.png"></a>
+        </nav>
+        <section id="sect">
+            <div class="imagem">
+                <img src="note.png" id="icon">
+            </div>
+            <div class="enunciado">
+                <h3>Atividade 24</h3>
+                <p>Faça um algoritmo que calcule a quantidade de litros de combustível gastos em uma viagem, sabendo que o carro faz 12km com um litro. Deve-se fornecer ao usuário o tempo que será gasto na viagem, a sua velocidade média, distância percorrida e a quantidade de litros utilizados para fazer a viagem.</p>
+            </div>
+            <div class="atividade">
+                <p>Insira o tempo da viagem e tamanho do trajeto para calcular a velocidade média e o gasto de combustível.</p>
+                <div><input type="number" id="tempo" placeholder="Insira o tempo da viagem"><p>hora</p></div>
+                <div><input type="number" id="dista" placeholder="Insira o tamanho do trajeto"><p>km</p></div>
+            </div>
+            <div class="btt">
+                <button onclick="att()">Calcular</button>
+            </div>
+            <div class="text">
+                <p id="result">O resultado será exibido aqui</p><p id="result2"></p>
+            </div>
+        </section>
+        <div id="note">
+            <h3>Nota</h3>
+            <p>É impossível realizar o cálculo se não houver entrada de dados por parte do usuário.</p>
+        </div>
+    </div>
+</body>
+</html>
+<script src="../att24/att.js"></script>
